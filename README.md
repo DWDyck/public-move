@@ -2,7 +2,7 @@
 
 A working concept from 2040: **public transportation reimagined around self-driving vehicles**, run as one public network, built for public benefit, not profit.
 
-**Live demo:** https://dwdike-maker.github.io/public-move/
+**Live demo:** https://dwdyck.github.io/public-move/
 
 ## The idea
 

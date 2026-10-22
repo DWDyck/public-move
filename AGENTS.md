@@ -6,7 +6,7 @@ Guidance for AI coding agents. Read this first; you should be productive in ~5 m
 
 **What it is:** A fully simulated, static, single-page *concept app* set in 2040. It shows a public transportation network where government-owned autonomous cars, shared shuttles, mass-transit lines, emergency units and residents' contributed cars operate as **one public network**, built for public benefit rather than profit.
 
-**Primary users:** Visitors to the public demo (https://dwdike-maker.github.io/public-move/): civic advocates, city officials, transit/disability-rights communities, and the general public being persuaded. The author (dwdike-maker) uses it to advocate for public self-driving mobility as a public right.
+**Primary users:** Visitors to the public demo (https://dwdyck.github.io/public-move/): civic advocates, city officials, transit/disability-rights communities, and the general public being persuaded. The author (DWDyck) uses it to advocate for public self-driving mobility as a public right.
 
 **Main goals**
 - Make the vision tangible: book a simulated trip, watch it on a live map, see costs, guarantees and impact.
@@ -48,10 +48,10 @@ Guidance for AI coding agents. Read this first; you should be productive in ~5 m
 - **Browser APIs used:** SVG DOM, `requestAnimationFrame`, `localStorage`, `speechSynthesis` (opt-in audio navigation), `inert`.
 - **Fonts:** system font stack only (no web fonts).
 - **Build tools:** none.
-- **Hosting:** GitHub Pages, branch `main`, path `/` (legacy build type) at https://dwdike-maker.github.io/public-move/.
+- **Hosting:** GitHub Pages, branch `main`, path `/` (legacy build type) at https://dwdyck.github.io/public-move/.
 - **Deployment:** `git push origin main` → Pages rebuilds automatically (~1 min). No CI.
 - **Local run:** open `index.html`, or `python -m http.server 8000`.
-- **Repo:** https://github.com/dwdike-maker/public-move (public, MIT).
+- **Repo:** https://github.com/DWDyck/public-move (public, MIT).
 
 ## 4. File Structure
 
