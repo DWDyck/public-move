@@ -60,6 +60,7 @@ Guidance for AI coding agents. Read this first; you should be productive in ~5 m
 | `index.html` | Static shell: map container, brand, gear button, `#sheet` (main), `#tabs`, toast/live regions, full-screen intro dialog. |
 | `app.js` | All logic, data, views, simulation (~650 lines). |
 | `styles.css` | All styling (~320 lines, dense/minified-style rules). Design tokens in `:root`; breakpoints at 640 / 899-900 / 380 px; `prefers-reduced-motion` and `.calm` handling. |
+| `pitch/` | St. Louis pilot business pitch (`public-move-stl-pitch.md`) and one-page infographic (`.html` source + `.png`). Standalone: not loaded by the app, no JS, no external assets. All figures are labelled projections/assumptions; do not reuse the app's fictional demo stats there. |
 | `README.md` | Public description and run instructions. |
 | `LICENSE` | MIT. |
 | `AGENTS.md` | This file. |
