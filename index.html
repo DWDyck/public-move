@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fbf8f2">
+<title>PUBLIC / MOVE — a concept for public mobility</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#sheet">Skip to content</a>
+<div class="app" id="app" data-mode="map" data-screen="go" data-step="home">
+  <div class="map" id="map" aria-hidden="true"><svg id="mapsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" preserveAspectRatio="xMidYMid slice"></svg></div>
+  <div class="brand" id="brand" aria-label="PUBLIC / MOVE">
+    <svg viewBox="0 0 28 28" width="22" height="22" aria-hidden="true"><circle cx="5" cy="21" r="3" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M8 21h8a4 4 0 004-4V11a4 4 0 014-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="23" cy="7" r="3" fill="var(--accent)"/></svg>
+    <span>PUBLIC <i>/</i> MOVE</span><b>2040</b>
+  </div>
+  <button class="gear" id="gearBtn" aria-label="Accessibility settings" data-act="open-access"></button>
+  <main class="sheet" id="sheet" tabindex="-1"></main>
+  <nav class="tabs" id="tabs" aria-label="Primary"></nav>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="sr" id="live" aria-live="polite"></div>
+  <section class="intro" id="intro" role="dialog" aria-modal="true" aria-labelledby="introT">
+    <div class="intro-in">
+      <p class="stamp"><i></i>Concept · A working mockup from 2040</p>
+      <h1 id="introT" tabindex="-1">PUBLIC <i>/</i> MOVE</h1>
+      <p class="sub">A concept for <b>public transportation in the near future</b>: government-owned autonomous cars, shared shuttles, mass transit, emergency units and neighbours’ self-driving cars, run as <b>one public network</b>. Built for public benefit, not profit.</p>
+      <div class="ifacts">
+        <div class="ifact"><strong>≈ $12,000</strong><span>a year to own and run a car in the U.S.</span><small>AAA, 2023</small></div>
+        <div class="ifact"><strong>≈ 95%</strong><span>of the time a private car sits parked.</span><small>Shoup; RAC Foundation</small></div>
+        <div class="ifact"><strong>≈ 40,000</strong><span>people die on U.S. roads every year.</span><small>NHTSA</small></div>
+      </div>
+      <div class="inever" aria-label="What this network never has"><span>Surge pricing</span><span>Tips</span><span>Ads</span><span>Premium tier</span><span>Paid queue-jumping</span></div>
+      <button class="btn" data-act="start" id="startBtn">Start the journey</button>
+      <button class="link" data-act="explore">Explore the city first</button>
+      <p class="intro-note">Everything here is simulated. There are no real vehicles, accounts, payments or dispatch. Statistics about the city are fictional; real-world figures are rounded and credited.</p>
+    </div>
+  </section>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
